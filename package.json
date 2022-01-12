@@ -1,11 +1,13 @@
  {
-    "start": "node app.js",
     "name": "docker",
     "version": "0.0.2",
     "dependencies": {
         "express": "^4.17.2",
         "http": "^0.0.1-security",
         "path": "^0.12.7"
-    }
+    },
+    "scripts": {
+        "start": "node app.js"
+      }
 }
 
